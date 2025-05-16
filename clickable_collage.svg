@@ -1,0 +1,74 @@
+
+<svg viewBox="0 0 3500 1838" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .thumb {
+      fill: transparent;
+      cursor: pointer;
+    }
+    .thumb:hover {
+      fill: rgba(0, 123, 255, 0.25);
+    }
+  </style>
+  <image href="00_Collage_Categories.jpg" width="3500" height="1838" />
+  
+    <rect class="thumb" x="0.0" y="0.0" width="875.0" height="612.6666666666666"
+          onclick="window.open('01.html', '_self')">
+      <title>Image 01</title>
+    </rect>
+    
+    <rect class="thumb" x="875.0" y="0.0" width="875.0" height="612.6666666666666"
+          onclick="window.open('02.html', '_self')">
+      <title>Image 02</title>
+    </rect>
+    
+    <rect class="thumb" x="1750.0" y="0.0" width="875.0" height="612.6666666666666"
+          onclick="window.open('03.html', '_self')">
+      <title>Image 03</title>
+    </rect>
+    
+    <rect class="thumb" x="2625.0" y="0.0" width="875.0" height="612.6666666666666"
+          onclick="window.open('04.html', '_self')">
+      <title>Image 04</title>
+    </rect>
+    
+    <rect class="thumb" x="0.0" y="612.6666666666666" width="875.0" height="612.6666666666666"
+          onclick="window.open('05.html', '_self')">
+      <title>Image 05</title>
+    </rect>
+    
+    <rect class="thumb" x="875.0" y="612.6666666666666" width="875.0" height="612.6666666666666"
+          onclick="window.open('06.html', '_self')">
+      <title>Image 06</title>
+    </rect>
+    
+    <rect class="thumb" x="1750.0" y="612.6666666666666" width="875.0" height="612.6666666666666"
+          onclick="window.open('07.html', '_self')">
+      <title>Image 07</title>
+    </rect>
+    
+    <rect class="thumb" x="2625.0" y="612.6666666666666" width="875.0" height="612.6666666666666"
+          onclick="window.open('08.html', '_self')">
+      <title>Image 08</title>
+    </rect>
+    
+    <rect class="thumb" x="0.0" y="1225.3333333333333" width="875.0" height="612.6666666666666"
+          onclick="window.open('09.html', '_self')">
+      <title>Image 09</title>
+    </rect>
+    
+    <rect class="thumb" x="875.0" y="1225.3333333333333" width="875.0" height="612.6666666666666"
+          onclick="window.open('10.html', '_self')">
+      <title>Image 10</title>
+    </rect>
+    
+    <rect class="thumb" x="1750.0" y="1225.3333333333333" width="875.0" height="612.6666666666666"
+          onclick="window.open('11.html', '_self')">
+      <title>Image 11</title>
+    </rect>
+    
+    <rect class="thumb" x="2625.0" y="1225.3333333333333" width="875.0" height="612.6666666666666"
+          onclick="window.open('12.html', '_self')">
+      <title>Image 12</title>
+    </rect>
+    
+</svg>
