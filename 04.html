@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Therese Frare. (1990). <em>David Kirby and family</em>. [Photograph]. Benetton campaign by Oliviero Toscani (1992).</title>
+  <title>04_Benetton_David_Kirby_and_family.jpg</title>
   <style>
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
       background: #000;
       color: #fff;
       font-family: sans-serif;
-      margin: 0;
+    }
+    .container {
       padding: 2rem;
-      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
     }
     .caption {
-      max-width: 900px;
-      margin: 0 auto 2rem auto;
       text-align: left;
     }
     .caption strong {
       font-size: 1.4rem;
+      display: block;
     }
     .caption em {
       font-style: italic;
     }
     .caption .category {
-      display: block;
-      margin-top: 0.25rem;
       font-weight: bold;
-      font-size: 1rem;
+      margin-top: 0.5rem;
+      display: block;
       color: #bbb;
     }
     .caption p {
@@ -35,9 +37,18 @@
       font-size: 1rem;
       line-height: 1.6;
     }
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
     img {
       max-width: 100%;
+      max-height: 80vh;
+      width: auto;
       height: auto;
+      object-fit: contain;
       border: 2px solid #444;
     }
     .nav {
@@ -52,10 +63,10 @@
       z-index: 10;
     }
     .nav.left {
-      left: 10px;
+      left: 1rem;
     }
     .nav.right {
-      right: 10px;
+      right: 1rem;
     }
     .nav:hover {
       background: rgba(255,255,255,0.2);
@@ -65,11 +76,13 @@
 <body>
   <a class="nav left" href="03.html">&#9664;</a>
   <a class="nav right" href="05.html">&#9654;</a>
-  <div class="caption">
-    <strong>Therese Frare. (1990). <em>David Kirby and family</em>. [Photograph]. Benetton campaign by Oliviero Toscani (1992).</strong>
-    <span class="category">Art / Propaganda</span>
-    <p>This controversial Benetton advertisement adapted a powerful documentary photograph to raise awareness about AIDS. It sparked global debate on ethics in advertising, the line between visibility and exploitation, and the role of emotion and shock in public messaging. The original photo was taken by Therese Frare with the Kirby family’s consent.</p>
+  <div class="container">
+    <div class="caption">
+      <strong>Frare, T. (1990). <em>David Kirby and family</em> [Photograph]. United Colors of Benetton ad by Toscani, O. (1992).</strong><span class="category">Art / Photojournalism / Advertising</span><p>Originally taken by Therese Frare with the family’s permission, this image was later used (controversially) by Toscani for Benetton. The photograph draws directly from Christian iconography, raising complex questions about ethics, empathy, and the commodification of suffering.</p>
+    </div>
+    <div class="image-wrapper">
+      <img src="04_Benetton_David_Kirby_and_family.jpg" alt="04_Benetton_David_Kirby_and_family.jpg">
+    </div>
   </div>
-  <img src="04_Benetton_David_Kirby_and_family.jpg" alt="Therese Frare. (1990). <em>David Kirby and family</em>. [Photograph]. Benetton campaign by Oliviero Toscani (1992).">
 </body>
 </html>

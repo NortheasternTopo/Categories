@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Saville, J. (2002–2003). <em>Reverse</em>. [Oil on canvas].</title>
+  <title>03_Jenny_Saville_Reverse.jpg</title>
   <style>
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
       background: #000;
       color: #fff;
       font-family: sans-serif;
-      margin: 0;
+    }
+    .container {
       padding: 2rem;
-      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
     }
     .caption {
-      max-width: 900px;
-      margin: 0 auto 2rem auto;
       text-align: left;
     }
     .caption strong {
       font-size: 1.4rem;
+      display: block;
     }
     .caption em {
       font-style: italic;
     }
     .caption .category {
-      display: block;
-      margin-top: 0.25rem;
       font-weight: bold;
-      font-size: 1rem;
+      margin-top: 0.5rem;
+      display: block;
       color: #bbb;
     }
     .caption p {
@@ -35,9 +37,18 @@
       font-size: 1rem;
       line-height: 1.6;
     }
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
     img {
       max-width: 100%;
+      max-height: 80vh;
+      width: auto;
       height: auto;
+      object-fit: contain;
       border: 2px solid #444;
     }
     .nav {
@@ -52,10 +63,10 @@
       z-index: 10;
     }
     .nav.left {
-      left: 10px;
+      left: 1rem;
     }
     .nav.right {
-      right: 10px;
+      right: 1rem;
     }
     .nav:hover {
       background: rgba(255,255,255,0.2);
@@ -65,11 +76,13 @@
 <body>
   <a class="nav left" href="02.html">&#9664;</a>
   <a class="nav right" href="04.html">&#9654;</a>
-  <div class="caption">
-    <strong>Saville, J. (2002–2003). <em>Reverse</em>. [Oil on canvas].</strong>
-    <span class="category">Art</span>
-    <p>Jenny Saville challenges traditional portrayals of the female body in Western art. Her large-scale paintings reject idealized forms, emphasizing corporeality, weight, and distortion. By doing so, she reclaims the female figure from objectification, inviting more authentic and complex representations of womanhood.</p>
+  <div class="container">
+    <div class="caption">
+      <strong>Saville, J. (2002–2003). <em>Reverse</em> [Oil on canvas].</strong><span class="category">Art</span><p>Rendered on a monumental scale, Saville’s intimate self-portrait challenges ideals of feminine beauty and reclaims the gaze from the perspective of the painted subject herself.</p>
+    </div>
+    <div class="image-wrapper">
+      <img src="03_Jenny_Saville_Reverse.jpg" alt="03_Jenny_Saville_Reverse.jpg">
+    </div>
   </div>
-  <img src="03_Jenny_Saville_Reverse.jpg" alt="Saville, J. (2002–2003). <em>Reverse</em>. [Oil on canvas].">
 </body>
 </html>

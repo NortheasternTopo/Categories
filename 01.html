@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Yeomans, D. (1993). <em>Mighty Mouse</em>. [Silkscreen print].</title>
+  <title>01_Don_Yeomans_Mighty_Mouse.jpg</title>
   <style>
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
       background: #000;
       color: #fff;
       font-family: sans-serif;
-      margin: 0;
+    }
+    .container {
       padding: 2rem;
-      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
     }
     .caption {
-      max-width: 900px;
-      margin: 0 auto 2rem auto;
       text-align: left;
     }
     .caption strong {
       font-size: 1.4rem;
+      display: block;
     }
     .caption em {
       font-style: italic;
     }
     .caption .category {
-      display: block;
-      margin-top: 0.25rem;
       font-weight: bold;
-      font-size: 1rem;
+      margin-top: 0.5rem;
+      display: block;
       color: #bbb;
     }
     .caption p {
@@ -35,9 +37,18 @@
       font-size: 1rem;
       line-height: 1.6;
     }
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
     img {
       max-width: 100%;
+      max-height: 80vh;
+      width: auto;
       height: auto;
+      object-fit: contain;
       border: 2px solid #444;
     }
     .nav {
@@ -52,10 +63,10 @@
       z-index: 10;
     }
     .nav.left {
-      left: 10px;
+      left: 1rem;
     }
     .nav.right {
-      right: 10px;
+      right: 1rem;
     }
     .nav:hover {
       background: rgba(255,255,255,0.2);
@@ -65,11 +76,13 @@
 <body>
   <a class="nav left" href="12.html">&#9664;</a>
   <a class="nav right" href="02.html">&#9654;</a>
-  <div class="caption">
-    <strong>Yeomans, D. (1993). <em>Mighty Mouse</em>. [Silkscreen print].</strong>
-    <span class="category">Art / Craft</span>
-    <p>This silkscreen print cleverly merges the Haida visual tradition with a widely recognized American cartoon character. The juxtaposition invites viewers to reflect on how Indigenous artists navigate cultural representation and popular culture. It also highlights the transformative power of Indigenous art to reclaim space within mass media imagery.</p>
+  <div class="container">
+    <div class="caption">
+      <strong>Yeomans, D. (1993). <em>Mighty Mouse</em> [Silkscreen print].</strong><span class="category">Art / Craft</span><p>A silk-screen print that combines traditional Haida visual language with a pop culture reference, inviting reflection on cultural continuity, transformation, and the interplay between heritage and mass media.</p>
+    </div>
+    <div class="image-wrapper">
+      <img src="01_Don_Yeomans_Mighty_Mouse.jpg" alt="01_Don_Yeomans_Mighty_Mouse.jpg">
+    </div>
   </div>
-  <img src="01_Don_Yeomans_Mighty_Mouse.jpg" alt="Yeomans, D. (1993). <em>Mighty Mouse</em>. [Silkscreen print].">
 </body>
 </html>

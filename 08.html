@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>van Gogh, V. (1889). <em>The Starry Night</em>. [Oil on canvas]. Museum of Modern Art, New York.</title>
+  <title>08_VanGogh_Starry_Night.jpg</title>
   <style>
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
       background: #000;
       color: #fff;
       font-family: sans-serif;
-      margin: 0;
+    }
+    .container {
       padding: 2rem;
-      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
     }
     .caption {
-      max-width: 900px;
-      margin: 0 auto 2rem auto;
       text-align: left;
     }
     .caption strong {
       font-size: 1.4rem;
+      display: block;
     }
     .caption em {
       font-style: italic;
     }
     .caption .category {
-      display: block;
-      margin-top: 0.25rem;
       font-weight: bold;
-      font-size: 1rem;
+      margin-top: 0.5rem;
+      display: block;
       color: #bbb;
     }
     .caption p {
@@ -35,9 +37,18 @@
       font-size: 1rem;
       line-height: 1.6;
     }
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
     img {
       max-width: 100%;
+      max-height: 80vh;
+      width: auto;
       height: auto;
+      object-fit: contain;
       border: 2px solid #444;
     }
     .nav {
@@ -52,10 +63,10 @@
       z-index: 10;
     }
     .nav.left {
-      left: 10px;
+      left: 1rem;
     }
     .nav.right {
-      right: 10px;
+      right: 1rem;
     }
     .nav:hover {
       background: rgba(255,255,255,0.2);
@@ -65,11 +76,13 @@
 <body>
   <a class="nav left" href="07.html">&#9664;</a>
   <a class="nav right" href="09.html">&#9654;</a>
-  <div class="caption">
-    <strong>van Gogh, V. (1889). <em>The Starry Night</em>. [Oil on canvas]. Museum of Modern Art, New York.</strong>
-    <span class="category">Art</span>
-    <p>Van Gogh’s swirling, expressive brushstrokes convey an internal emotional world as much as a visual one. “The Starry Night” is celebrated not just for its aesthetic beauty, but also for its capacity to express turbulence, longing, and spiritual reflection. It’s a hallmark of how personal experience shapes visual representation.</p>
+  <div class="container">
+    <div class="caption">
+      <strong>van Gogh, V. (1889). <em>The Starry Night</em> [Oil on canvas].</strong><span class="category">Art</span><p>Created while institutionalized in Saint-Rémy-de-Provence, this expressive and imaginative depiction of a night sky became one of van Gogh’s most beloved works, fusing memory, emotion, and symbolism.</p>
+    </div>
+    <div class="image-wrapper">
+      <img src="08_VanGogh_Starry_Night.jpg" alt="08_VanGogh_Starry_Night.jpg">
+    </div>
   </div>
-  <img src="08_VanGogh_Starry_Night.jpg" alt="van Gogh, V. (1889). <em>The Starry Night</em>. [Oil on canvas]. Museum of Modern Art, New York.">
 </body>
 </html>

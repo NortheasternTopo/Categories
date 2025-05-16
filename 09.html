@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Nintendo. (1985). <em>Super Mario Bros.</em> [Video game still].</title>
+  <title>09_Super_Mario_Bros.jpg</title>
   <style>
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
       background: #000;
       color: #fff;
       font-family: sans-serif;
-      margin: 0;
+    }
+    .container {
       padding: 2rem;
-      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
     }
     .caption {
-      max-width: 900px;
-      margin: 0 auto 2rem auto;
       text-align: left;
     }
     .caption strong {
       font-size: 1.4rem;
+      display: block;
     }
     .caption em {
       font-style: italic;
     }
     .caption .category {
-      display: block;
-      margin-top: 0.25rem;
       font-weight: bold;
-      font-size: 1rem;
+      margin-top: 0.5rem;
+      display: block;
       color: #bbb;
     }
     .caption p {
@@ -35,9 +37,18 @@
       font-size: 1rem;
       line-height: 1.6;
     }
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
     img {
       max-width: 100%;
+      max-height: 80vh;
+      width: auto;
       height: auto;
+      object-fit: contain;
       border: 2px solid #444;
     }
     .nav {
@@ -52,10 +63,10 @@
       z-index: 10;
     }
     .nav.left {
-      left: 10px;
+      left: 1rem;
     }
     .nav.right {
-      right: 10px;
+      right: 1rem;
     }
     .nav:hover {
       background: rgba(255,255,255,0.2);
@@ -65,11 +76,13 @@
 <body>
   <a class="nav left" href="08.html">&#9664;</a>
   <a class="nav right" href="10.html">&#9654;</a>
-  <div class="caption">
-    <strong>Nintendo. (1985). <em>Super Mario Bros.</em> [Video game still].</strong>
-    <span class="category">Design / Popular culture</span>
-    <p>The pixelated world of Mario became iconic in shaping early video game aesthetics and storytelling. As a cultural artifact, it represents the convergence of entertainment, design constraints, and nostalgic memory. Its lasting presence in gaming culture illustrates how interactive media construct visual legacies.</p>
+  <div class="container">
+    <div class="caption">
+      <strong>Nintendo. (1985). <em>Super Mario Bros.</em> [Game still].</strong><span class="category">Popular Culture / Game Design</span><p>With limited pixels and vibrant color, Nintendo’s 8-bit side-scroller introduced a visual language that defined a generation of video games. Its lasting legacy in popular culture speaks to the power of design under constraint.</p>
+    </div>
+    <div class="image-wrapper">
+      <img src="09_Super_Mario_Bros.jpg" alt="09_Super_Mario_Bros.jpg">
+    </div>
   </div>
-  <img src="09_Super_Mario_Bros.jpg" alt="Nintendo. (1985). <em>Super Mario Bros.</em> [Video game still].">
 </body>
 </html>
