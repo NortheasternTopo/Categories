@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 3500 1838" width="100%" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .thumb {
+      fill: transparent;
+      cursor: pointer;
+    }
+    .thumb:hover {
+      fill: rgba(0, 123, 255, 0.25);
+    }
+  </style>
+<image height="1838" href="00_Collage_Categories.jpg" width="3500"/>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('01.html', '_blank')" width="875.0" x="0.0" y="0.0"><title>Yeomans, D. (2025). Mighty Mouse</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('02.html', '_blank')" width="875.0" x="875.0" y="0.0"><title>Kruger, B. (1987). I shop therefore I am</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('03.html', '_blank')" width="875.0" x="1750.0" y="0.0"><title>Saville, J. (2002–2003). Reverse</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('04.html', '_blank')" width="875.0" x="2625.0" y="0.0"><title>Toscani, O. (1990). David Kirby and Family</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('05.html', '_blank')" width="875.0" x="0.0" y="612.6666666666666"><title>Buonarroti, M. (1512). The Creation of Adam</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('06.html', '_blank')" width="875.0" x="875.0" y="612.6666666666666"><title>Murai, H. (2018). This is America</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('07.html', '_blank')" width="875.0" x="1750.0" y="612.6666666666666"><title>Müller-Brockmann, J. (1953). Protect the Child!</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('08.html', '_blank')" width="875.0" x="2625.0" y="612.6666666666666"><title>Van Gogh, V. (1889). Starry Night</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('09.html', '_blank')" width="875.0" x="0.0" y="1225.3333333333333"><title>Tezuka, T. (1985). Super Mario Bros.</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('10.html', '_blank')" width="875.0" x="875.0" y="1225.3333333333333"><title>Kusama, Y. (1994). Pumpkin</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('11.html', '_blank')" width="875.0" x="1750.0" y="1225.3333333333333"><title>Docter, P. (2001). Monsters, Inc.</title>
+
+</rect>
+<rect class="thumb" height="612.6666666666666" onclick="window.open('12.html', '_blank')" width="875.0" x="2625.0" y="1225.3333333333333"><title>KAWS (2008). Dollar Bill</title>
+
+</rect>
+</svg>
