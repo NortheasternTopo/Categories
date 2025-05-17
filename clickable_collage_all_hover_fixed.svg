@@ -1,51 +1,55 @@
-<svg viewBox="0 0 3500 1838" width="3500" height="1838" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 3500 1838" width="3500" height="1838"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    a:hover rect { fill: rgba(0, 123, 255, 0.3); }
+    a { cursor: pointer; }
+  </style>
   <image href="00_Collage_Categories.jpg" width="3500" height="1838" />
-
-  <a href="01.html">
+  <a xlink:href="01.html">
     <title>“Yeomans, D. (2025). Mighty Mouse [Red cedar and acrylic].</title>
     <rect x="0" y="0" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="02.html">
+  <a xlink:href="02.html">
     <title>“Kruger, B. (1987). Untitled (I shop therefore I am) [Photographic silkscreen on vinyl].</title>
     <rect x="875" y="0" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="03.html">
+  <a xlink:href="03.html">
     <title>“Saville, J. (2002–2003). Reverse [Oil on canvas].</title>
     <rect x="1750" y="0" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="04.html">
+  <a xlink:href="04.html">
     <title>“Frare, T., Rhoney, A., Kalman, T., &amp; Toscani, O. (1990). David Kirby and family [Offset print].</title>
     <rect x="2625" y="0" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="05.html">
+  <a xlink:href="05.html">
     <title>“Buonarroti, M. (1512). The Creation of Adam [Fresco]</title>
     <rect x="0" y="612" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="06.html">
+  <a xlink:href="06.html">
     <title>“Murai, H. (2018). This is America by Childish Gambino [Video still].</title>
     <rect x="875" y="612" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="07.html">
+  <a xlink:href="07.html">
     <title>“Müller-Brockmann, J. (1953). Protect the Child! [Offset print].</title>
     <rect x="1750" y="612" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="08.html">
+  <a xlink:href="08.html">
     <title>“Van Gogh, V. (1889). Starry Night [Oil on canvas].</title>
     <rect x="2625" y="612" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="09.html">
+  <a xlink:href="09.html">
     <title>“Miyamoto, S., &amp; Tezuka, T. (1985). Super Mario Bros. [Video game still].</title>
     <rect x="0" y="1224" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="10.html">
+  <a xlink:href="10.html">
     <title>“Kusama, Y. (1994). Pumpkin [Fiberglass-reinforced plastic].</title>
     <rect x="875" y="1224" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="11.html">
+  <a xlink:href="11.html">
     <title>“Docter, P. (Director). (2001). Monsters, Inc. [Movie still].</title>
     <rect x="1750" y="1224" width="875" height="612" fill="transparent"/>
   </a>
-  <a href="12.html">
+  <a xlink:href="12.html">
     <title>“KAWS (Donnelly, B.). (2008). Dollar Bill [Offset lithography].</title>
     <rect x="2625" y="1224" width="875" height="612" fill="transparent"/>
   </a>
