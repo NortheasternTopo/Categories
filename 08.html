@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>“Van Gogh, V. (1889). Starry Night [Oil on canvas].</title>
+  <title>Van Gogh, V. (1889). Starry Night [Oil on canvas].</title>
   <style>
     html, body {
       margin: 0;
@@ -10,6 +10,7 @@
       background: #000;
       color: #fff;
       font-family: sans-serif;
+      height: 100%;
     }
     .caption {
       max-width: 900px;
@@ -39,10 +40,12 @@
       justify-content: center;
       align-items: center;
       width: 100%;
+      padding: 1rem;
+      box-sizing: border-box;
     }
     img {
       max-width: 100%;
-      max-height: 85vh;
+      max-height: calc(100vh - 250px);
       width: auto;
       height: auto;
       object-fit: contain;
@@ -64,15 +67,15 @@
   </style>
 </head>
 <body>
-  <a class="nav left" href="07.html">◀</a>
-  <a class="nav right" href="09.html">▶</a>
+  <a class="nav left" href="07.html">◄</a>
+  <a class="nav right" href="09.html">►</a>
   <div class="caption">
-    <strong>“Van Gogh, V. (1889). Starry Night [Oil on canvas].</strong>
+    <strong>Van Gogh, V. (1889). Starry Night [Oil on canvas].</strong>
     <span class="category">Art / Financial Asset / Institutional Propaganda</span>
     <p>Undeniably art, but its hyper-commercialization as a museum poster or mug complicates its identity—used to perpetuate financial speculation, institutional prestige, and tourism economies.</p>
   </div>
   <div class="image-wrapper">
-    <img src="08_VanGogh_Starry_Night.jpg" alt="“Van Gogh, V. (1889). Starry Night [Oil on canvas].">
+    <img src="08_VanGogh_Starry_Night.jpg" alt="Van Gogh, V. (1889). Starry Night [Oil on canvas]." title="Van Gogh, V. (1889). Starry Night [Oil on canvas].">
   </div>
 </body>
 </html>
