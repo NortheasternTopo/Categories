@@ -1,25 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 3500 1838" width="100%" xmlns="http://www.w3.org/2000/svg">
-<style>
-.thumb {
-  fill: transparent;
-  cursor: pointer;
-}
-.thumb:hover {
-  fill: rgba(0, 123, 255, 0.25);
-}
-</style>
-<image height="1838" href="00_Collage_Categories.jpg" width="3500"/>
-
-
-
-
-
-
-
-
-
-
-
-
-<rect class="thumb" height="100%" onclick="window.open('13_updated.html', '_blank')" width="100%" x="0" y="0"><title>Kandinsky, W. (1923). Composition 8</title></rect></svg>
+<svg viewBox="0 0 1929 768" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .thumb {
+      fill: transparent;
+      cursor: pointer;
+    }
+    .thumb:hover {
+      fill: rgba(0, 123, 255, 0.25);
+    }
+  </style>
+  <image href="Kandinsky_det.jpg" width="1929" height="768" />
+  <rect class="thumb" x="0" y="0" width="1929" height="768"
+        onclick="window.open('13_updated.html', '_blank')">
+    <title>Kandinsky, W. (1923). Composition 8</title>
+  </rect>
+</svg>
