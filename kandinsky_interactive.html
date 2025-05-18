@@ -1,36 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kandinsky Interactive (Responsive)</title>
+  <title>Kandinsky</title>
   <style>
-  body {
-    margin: 0;
-    background: #fff;
-  }
-  .svg-container {
-    position: relative;
-    width: 100%;
-    padding-top: 39.8%; /* 768 / 1929 */
-    background: #fff;
-    overflow: hidden;
-  }
-  .svg-container object {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 1929 / 768;
-    border: none;
-    display: block;
-  }
-</style>
+    body {
+      margin: 0;
+      background: #fff;
+    }
+    object {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-  <div class="svg-container">
-    <object data="13_kandinsky_interactive.svg" type="image/svg+xml"></object>
-  </div>
+  <object data="13_kandinsky_interactive.svg" type="image/svg+xml"></object>
 </body>
 </html>
