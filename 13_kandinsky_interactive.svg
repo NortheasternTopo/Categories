@@ -10,7 +10,7 @@
   </style>
   <image href="Kandinsky_det.jpg" width="1929" height="768" />
   <rect class="thumb" x="0" y="0" width="1929" height="768"
-        onclick="window.open('13_updated.html', '_blank')">
+        onclick="window.open('13.html', '_blank')">
     <title>Kandinsky, W. (1923). Composition 8</title>
   </rect>
 </svg>
