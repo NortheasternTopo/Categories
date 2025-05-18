@@ -3,7 +3,7 @@
     .thumb { fill: transparent; cursor: pointer; }
     .thumb:hover { fill: rgba(0, 123, 255, 0.25); }
   </style>
-  <image href="Collage_Space.jpg" width="2048" height="358" />
+  <image href="Collage_Point.jpg" width="2048" height="358" />
   <rect class="thumb" x="0" y="0" width="512" height="358" onclick="window.open('18.html', '_blank')"><title>Ishihara, S. (1917). Plate No. 1</title></rect>
   <rect class="thumb" x="512" y="0" width="512" height="358" onclick="window.open('19.html', '_blank')"><title>Seurat, G. (1888). Parade de cirque</title></rect>
   <rect class="thumb" x="1024" y="0" width="512" height="358" onclick="window.open('20.html', '_blank')"><title>Dana. (2021). Mandala Dots</title></rect>
