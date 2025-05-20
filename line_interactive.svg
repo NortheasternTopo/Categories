@@ -1,0 +1,11 @@
+<svg viewBox="0 0 2048 358" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .thumb { fill: transparent; cursor: pointer; }
+    .thumb:hover { fill: rgba(0, 123, 255, 0.25); }
+  </style>
+  <image href="Collage_Line.jpg" width="2048" height="358" />
+  <rect class="thumb" x="0" y="0" width="512" height="358" onclick="window.open('22.html', '_blank')"><title>Schiele, E. (1914). Self Portrait</title></rect>
+  <rect class="thumb" x="512" y="0" width="512" height="358" onclick="window.open('23.html', '_blank')"><title>Haring, K. (1986). Medusa Head</title></rect>
+  <rect class="thumb" x="1024" y="0" width="512" height="358" onclick="window.open('24.html', '_blank')"><title>Riley, B. (1979). RGB Twisted Curves</title></rect>
+  <rect class="thumb" x="1536" y="0" width="512" height="358" onclick="window.open('25.html', '_blank')"><title>Meave, G. (2015). Pura Inglesa</title></rect>
+</svg>
