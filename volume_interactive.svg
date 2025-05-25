@@ -3,9 +3,9 @@
     .thumb { fill: transparent; cursor: pointer; }
     .thumb:hover { fill: rgba(0, 123, 255, 0.25); }
   </style>
-  <image href="Collage_Space.jpg" width="2048" height="358" />
-  <rect class="thumb" x="0" y="0" width="512" height="358" onclick="window.open('14.html', '_blank')"><title>NASA (2022). Carina Nebula</title></rect>
-  <rect class="thumb" x="512" y="0" width="512" height="358" onclick="window.open('15.html', '_blank')"><title>Kapoor, A. (2006). Cloud Gate</title></rect>
-  <rect class="thumb" x="1024" y="0" width="512" height="358" onclick="window.open('16.html', '_blank')"><title>Leader, L. (1994). FedEx logo</title></rect>
-  <rect class="thumb" x="1536" y="0" width="512" height="358" onclick="window.open('17.html', '_blank')"><title>Malevich, K. (1915). Black Square</title></rect>
+  <image href="Collage_Volume.jpg" width="2048" height="358" />
+  <rect class="thumb" x="0" y="0" width="512" height="358" onclick="window.open('30.html', '_blank')"><title>Koons, J. (1994). Balloon Dog</title></rect>
+  <rect class="thumb" x="512" y="0" width="512" height="358" onclick="window.open('31.html', '_blank')"><title>Escher, M. C. (1953). Relativity</title></rect>
+  <rect class="thumb" x="1024" y="0" width="512" height="358" onclick="window.open('32.html', '_blank')"><title>Di Rita M. (2021). University of Padua</title></rect>
+  <rect class="thumb" x="1536" y="0" width="512" height="358" onclick="window.open('33.html', '_blank')"><title>Lasseter, J. (1995). Buzz Lightyear</title></rect>
 </svg>
