@@ -4,8 +4,8 @@
     .thumb:hover { fill: rgba(0, 123, 255, 0.25); }
   </style>
   <image href="Collage_Plane.jpg" width="2048" height="358" />
-  <rect class="thumb" x="0" y="0" width="512" height="358" onclick="window.open('14.html', '_blank')"><title>Moholy-Nagy, L. (1927). A 19</title></rect>
-  <rect class="thumb" x="512" y="0" width="512" height="358" onclick="window.open('15.html', '_blank')"><title>Edwards, B. (1963). The Pink Panther</title></rect>
-  <rect class="thumb" x="1024" y="0" width="512" height="358" onclick="window.open('16.html', '_blank')"><title>Janoff, R. (1977). Apple logo</title></rect>
-  <rect class="thumb" x="1536" y="0" width="512" height="358" onclick="window.open('17.html', '_blank')"><title>Tanaka, I. (1981). Nihon Buyo</title></rect>
+  <rect class="thumb" x="0" y="0" width="512" height="358" onclick="window.open('26.html', '_blank')"><title>Moholy-Nagy, L. (1927). A 19</title></rect>
+  <rect class="thumb" x="512" y="0" width="512" height="358" onclick="window.open('27.html', '_blank')"><title>Edwards, B. (1963). The Pink Panther</title></rect>
+  <rect class="thumb" x="1024" y="0" width="512" height="358" onclick="window.open('28.html', '_blank')"><title>Janoff, R. (1977). Apple logo</title></rect>
+  <rect class="thumb" x="1536" y="0" width="512" height="358" onclick="window.open('29.html', '_blank')"><title>Tanaka, I. (1981). Nihon Buyo</title></rect>
 </svg>
