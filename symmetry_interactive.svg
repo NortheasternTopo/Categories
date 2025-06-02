@@ -1,0 +1,4 @@
+<svg viewBox="0 0 2048 907" width="100%" xmlns="http://www.w3.org/2000/svg"><style>
+  .thumb { fill: transparent; cursor: pointer; }
+  .thumb:hover { fill: rgba(0, 123, 255, 0.25); }
+</style><image href="01_A_SymetricBalance.jpg" width="2048" height="907" /><rect class="thumb" x="0" y="0" width="738" height="907" onclick="window.open('left.html', '_blank')"><title>Left Segment</title></rect><rect class="thumb" x="738" y="0" width="642" height="907" onclick="window.open('middle.html', '_blank')"><title>Middle Segment</title></rect><rect class="thumb" x="1380" y="0" width="668" height="907" onclick="window.open('right.html', '_blank')"><title>Right Segment</title></rect></svg>
